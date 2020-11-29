@@ -1,0 +1,34 @@
+table#mytable {
+    border-collapse: collapse;
+    background: black;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 540px;
+    height: 520px;
+}
+
+table#mytable thead th {
+    padding: 25px;
+    font-size: 22px;
+    
+}
+
+table#mytable tbody td {
+
+    text-align: center;
+}
+
+table#mytable tbody tr {
+    background: #ddd;
+    color: black;
+}
+
+table#mytable tbody tr:last-child {
+    background: #0c0106;
+    color: white;
+}
+tr.active {
+    background: #837373 !important;
+    color: white !important;
+}
